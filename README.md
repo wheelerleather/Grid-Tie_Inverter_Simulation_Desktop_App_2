@@ -2,7 +2,7 @@
 
 _This desktop software simulates a Grid-Tie Inverter and is second version of a [similar desktop app](https://github.com/KMORaza/Grid-Tie_Inverter_Simulation_Desktop_App) which I wrote in C language. I wrote this version from scratch in Python and added a few more features and improved some features that exist in first version._
 
-## 1. Functioning Logic
+## Functioning Logic
 
 The Grid-Tie Inverter Simulation is a desktop software to simulate a grid-connected inverter under various configurations, including single-phase or three-phase topologies, multilevel inverter designs, DC source types (Fixed, PV Panel, Battery, Fuel Cell, Hybrid), control strategies, maximum power point tracking (MPPT) algorithms, and grid conditions. 
 
@@ -18,7 +18,7 @@ The Grid-Tie Inverter Simulation is a desktop software to simulate a grid-connec
 - **Time-Domain Simulation (`Zeitbereichssimulation.py`)**: Analyzes transient behavior with configurable time steps.
 - **Frequency-Domain Analysis (`FrequenzbereichsUndKleinsignalanalyse.py`)**: Performs small-signal analysis to evaluate system stability via Bode plots.
 
-## 2. Simulation Logic
+## Simulation Logic
 
 The simulation operates in a time-stepped manner, updating system states and generating waveforms based on user inputs and dynamic conditions.
 
@@ -169,7 +169,7 @@ The simulation operates in a time-stepped manner, updating system states and gen
   - Phase Shift: `V(t) = V(t - 0.01)` (interpolated).
   - Current: `I *= V_new / V_old` (V_old = 1.0 if V_old < 1e-6).
 
-## 4. Algorithms and Equations
+## Algorithms and Equations
 ### MPPT Algorithms 
 - **Perturb and Observe**:
   - Parameters: Step = 5V, V_oc = 500V, I_sc = 10A.
