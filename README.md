@@ -278,3 +278,6 @@ The simulation operates in a time-stepped manner, updating system states and gen
   - Adaptive control: Stored in `AdaptiveKontrollstrategien.py`.
 - **Reset**: All components reset to initial states (e.g., V = 400V, phase = 0) for consistent restarts.
 
+## Screenshots
+
+![](https://github.com/KMORaza/Grid-Tie_Inverter_Simulation_Desktop_App_2/blob/main/Grid-Tie%20Inverter%20Simulation%20Software/screen.png)
