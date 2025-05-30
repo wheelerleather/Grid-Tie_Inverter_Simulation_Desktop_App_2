@@ -1,6 +1,6 @@
 # Grid-Tie Inverter Simulation Software
 
-This desktop software simulates a Grid-Tie Inverter and is second version of a similar desktop app which I wrote in C language. I wrote this version from scratch in Python and added a few more features and improved some features that exist in first version.
+This desktop software simulates a Grid-Tie Inverter and is second version of a [similar desktop app](https://github.com/KMORaza/Grid-Tie_Inverter_Simulation_Desktop_App) which I wrote in C language. I wrote this version from scratch in Python and added a few more features and improved some features that exist in first version.
 
 ## 1. Functioning Logic
 
